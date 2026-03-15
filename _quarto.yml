@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site   # ensure output goes to _site for publishing
+
+website:
+  title: "Filippo Liviano D'Arcangelo"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: blog/first-post/research.qmd
+
+# Publishing configuration
+publish:
+  - file: _publish.yml
+
